@@ -1,7 +1,7 @@
 .TopBar {
-width:80%;
-height:10vh;
-background-color: red;
+width:85%;
+height:25vh;
+background-color: gold;
 position:fixed;
 top:0;
 left:0;
@@ -12,7 +12,49 @@ padding:4vh 4vh 1vh 4vh;
 }
 
 .SideBar {
-width:20%;
+width:15%;
+height:100%;
+background-color:blue;
+position:fixed;
+top: 0;
+right: 0;
+}
+
+.BodyBox {
+top:25vh;
+height:75%;
+width:85%;
+left:0;
+position:fixed;
+background-color:gray;
+overflow-y: scroll;
+display:block;
+}
+
+.BodyText {
+    font-size:20px;
+    text-align: justify;
+    padding: 5vh 5vh 5vh 5vh;
+}
+}
+
+/* mobile */
+@media only screen and (max-width:1000px) {
+.TopBar {
+width:75%;
+height:12vh;
+background-color: gold;
+position:fixed;
+top:0;
+left:0;
+}
+
+.TopBar_Text {
+padding:4vh 4vh 1vh 4vh;
+}
+
+.SideBar {
+width:25%;
 height:100%;
 background-color:green;
 position:fixed;
@@ -21,10 +63,21 @@ right: 0;
 }
 
 .BodyBox {
-top:10vh;
-height:100%;
-width:80%;
+top:12vh;
+height:90%;
+width:75%;
 left:0;
 position:fixed;
 background-color:gray;
+overflow-y:scroll;
+display:block;
+}
+
+.BodyText {
+    font-size: 32px;
+    text-align: justify;
+    padding: 2vh 2vh 2vh 2vh;
+    line-height: 1.5;
+}
+
 }
