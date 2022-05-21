@@ -45,13 +45,15 @@ display:block;
 }
 
 #Subtitle {
-    font-size:20px;
+    font-size:18px;
     padding-top:0vh;
+    font-style:italic;
 }
 
 #PageTitle {
-    font-size:30px;
-    padding-left:20vh;
+    font-size:25px;
+    padding-left:30vh;
+    padding-bottom:2vh;
 }
 
 /* mobile */
