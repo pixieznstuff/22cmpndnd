@@ -1,7 +1,7 @@
 .TopBar {
 width:85%;
 height:25vh;
-background-color: gold;
+background-color: #7B7263;
 position:fixed;
 top:0;
 left:0;
@@ -14,7 +14,7 @@ padding:4vh 4vh 1vh 4vh;
 .SideBar {
 width:15%;
 height:100%;
-background-color:blue;
+background-color:#5F6062;
 position:fixed;
 top: 0;
 right: 0;
@@ -26,7 +26,7 @@ height:75%;
 width:85%;
 left:0;
 position:fixed;
-background-color:gray;
+background-color:#555358;
 overflow-y: scroll;
 display:block;
 }
@@ -35,6 +35,7 @@ display:block;
     font-size:20px;
     text-align: justify;
     padding: 5vh 5vh 5vh 5vh;
+    color: #d1d1d1;
 }
 }
 
@@ -43,7 +44,7 @@ display:block;
 .TopBar {
 width:75%;
 height:12vh;
-background-color: gold;
+background-color: #7B7263;
 position:fixed;
 top:0;
 left:0;
@@ -56,7 +57,7 @@ padding:4vh 4vh 1vh 4vh;
 .SideBar {
 width:25%;
 height:100%;
-background-color:green;
+background-color:#5F6062;
 position:fixed;
 top: 0;
 right: 0;
@@ -68,7 +69,7 @@ height:90%;
 width:75%;
 left:0;
 position:fixed;
-background-color:gray;
+background-color:#555358;
 overflow-y:scroll;
 display:block;
 }
@@ -78,6 +79,7 @@ display:block;
     text-align: justify;
     padding: 2vh 2vh 2vh 2vh;
     line-height: 1.5;
+    color:#d1d1d1;
 }
 
 }
